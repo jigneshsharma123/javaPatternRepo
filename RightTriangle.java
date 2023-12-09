@@ -29,6 +29,20 @@ class RightTriangle {
      }
    
     }
+    //Inverte left trigangle
+    public static void InvertedLeftTriangle(int n) {
+       for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                if(i>=j) {
+                    System.err.print(" ");
+                } else {
+                    System.out.print("*");
+                }
+            }
+            System.err.println();
+        }
+    }
+    
    
 
     
@@ -38,7 +52,8 @@ class RightTriangle {
          Scanner sc = new Scanner(System.in);
          System.out.println("Enter the size of the pattern: ");
          int n = sc.nextInt();
-        InvertedRightTriangle(n);
+        // InvertedRightTriangle(n);
+        InvertedLeftTriangle(n);
 
         } catch (Exception e) {
         System.out.println(e);
