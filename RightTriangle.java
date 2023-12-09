@@ -42,8 +42,20 @@ class RightTriangle {
             System.err.println();
         }
     }
-    
-   
+    public static void LeftTriangle(int n) {
+        for(int i = 1; i <=n; i++) {
+            //for space 
+            for(int j = n - 1; j>=i; j--) {
+                System.out.print("");
+            }
+            //for * 
+            for(int k=1; k<=i;k++) {
+                System.out.print("*");
+            }
+          System.err.println();
+        }
+
+    }
 
     
     public static void main(String[] args) {
@@ -53,11 +65,12 @@ class RightTriangle {
          System.out.println("Enter the size of the pattern: ");
          int n = sc.nextInt();
         // InvertedRightTriangle(n);
-        InvertedLeftTriangle(n);
-
+        // InvertedLeftTriangle(n);
+        // PrintRightTriangle(n);
+        LeftTriangle(4);
         } catch (Exception e) {
         System.out.println(e);
     }
-    // PrintRightTriangle(n);
+    // 
     }
 }
