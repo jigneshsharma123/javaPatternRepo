@@ -4,7 +4,16 @@ class RightTriangle {
     
     
     public static void PrintRightTriangle(int n) {
-         System.out.println("you inputed the number!!");
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                if(i>=j) {
+                    System.err.print("* ");
+                } else {
+                    System.out.print("");
+                }
+            }
+            System.err.println();
+        }
     }
    
 
