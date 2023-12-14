@@ -6,9 +6,12 @@ public class webkulPattern {
     int px = 1;
     int py =n;
     for(int i = 1; i <= n / 2 + 1; i++) {
+       
+        //this is for the space means displacing the pyramid to the end of the row; of the opposite U ***  
         for(int j =1; j<=n/2; j++) {
             System.out.print(" ");
         }
+
         for(int j = 1; j<=n; j++) {
             if(j>=px && j<=py) {
                 System.out.print("@");
