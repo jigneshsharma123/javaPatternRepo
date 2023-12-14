@@ -50,13 +50,13 @@ class RightTriangle {
             }
             //for * 
             for(int k=1; k<=i;k++) {
-                System.out.print("*");
+                System.out.print("*"); //just add the white space after start to convert the pyramid pattern 
             }
           System.err.println();
         }
 
     }
-
+    
     
     public static void main(String[] args) {
 
@@ -67,7 +67,7 @@ class RightTriangle {
         // InvertedRightTriangle(n);
         // InvertedLeftTriangle(n);
         // PrintRightTriangle(n);
-        LeftTriangle(4);
+        //    LeftTriangle(4);
         } catch (Exception e) {
         System.out.println(e);
     }
