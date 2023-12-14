@@ -39,7 +39,7 @@ public class PyramidPattern {
     }
   }
 
-  
+
 
 
 
@@ -49,8 +49,8 @@ public class PyramidPattern {
         Scanner sc = new Scanner(System.in);
        System.out.println("Enter the length of the pattern:");
        int n = sc.nextInt();
-    //    printPyramid(n);
-      printReversePyramid(n);
+       printPyramid(n); System.out.println();
+         printReversePyramid(n);
         
      } catch (Exception e) {
         System.out.println(e);
@@ -62,3 +62,19 @@ public class PyramidPattern {
  }    
 
 }
+
+/*
+  
+
+    *
+   ***
+  *****
+ *******
+*********
+
+*********
+ *******
+  *****
+   ***
+    *
+ */

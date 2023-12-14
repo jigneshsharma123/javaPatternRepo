@@ -64,10 +64,56 @@ class RightTriangle {
          Scanner sc = new Scanner(System.in);
          System.out.println("Enter the size of the pattern: ");
          int n = sc.nextInt();
-        // InvertedRightTriangle(n);
-        // InvertedLeftTriangle(n);
-        // PrintRightTriangle(n);
-        //    LeftTriangle(4);
+        InvertedRightTriangle(n);
+/*  
+ 
+                    *****
+                    ****
+                    ***
+                    **
+                    *
+
+
+ */
+
+        System.out.println();
+        InvertedLeftTriangle(n);
+        /*   
+         
+        
+ ****
+  ***
+   **
+    *
+
+         */
+        System.out.println();
+        PrintRightTriangle(n);
+
+    /*
+*
+* *
+* * *
+* * * *
+* * * * * 
+     */
+
+
+        System.out.println();
+
+  /*
+   
+*
+**
+***
+****
+    
+   */
+
+
+        LeftTriangle(4);
+
+
         } catch (Exception e) {
         System.out.println(e);
     }
