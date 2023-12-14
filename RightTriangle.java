@@ -91,7 +91,7 @@ class RightTriangle {
         PrintRightTriangle(n);
 
     /*
-*
+*     for(int j = 0;   (j<=i); j++)  j<=i ==> is important for printing this pattern for reverse this you simply i = 5 i >0 i--
 * *
 * * *
 * * * *
