@@ -41,7 +41,7 @@ public class webkulPattern3 {
         for(int i = 1; i <(n/2)+2; i++) {
             //for the space 
             for(int k =0; k < n; k++) {
-                System.out.print(" ");
+                System.out.print(" "); 
             }
             for(int j =1; j<=n; j++) {
                 if(j>=px && j<=py) {

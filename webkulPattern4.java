@@ -20,9 +20,9 @@ public class webkulPattern4 {
         }
 
     }
-}
+} 
 
-/*
+/* 
  * 
  *   (i < n / 2 && j<=i) this is for the upper left part
  *   (i > n / 2 && j<n - i) this is for the lower left part 
@@ -31,4 +31,4 @@ public class webkulPattern4 {
  *   if(i == n / 2 + 1) this is for the middle + 1 which print single space + star
  *     
  * 
- */
+ */    
