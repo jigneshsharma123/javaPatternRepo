@@ -25,7 +25,7 @@ public class webkulPattern3 {
 
             System.out.println();
         } //end of the first part of  the program; 
-        for(int i = 1; i<=n; i++) {
+        for(int i = 1; i<n; i++) {
              //this is for the spacing or /moving the pattern to the n == 3 space
              for(int j =0; j < n; j++) {
                 System.out.print(" ");
