@@ -1,6 +1,6 @@
 public class webkulPattern2 {
    public static void printPattern2(int n) {
-     for(int i = 0; i < (n/2)+2; i++) {
+     for(int i = 0; i < (n/2) + 1; i++) {
             for(int j = 0; j < n - i; j++) {
                 System.out.print(" ");
             }
@@ -26,6 +26,7 @@ public class webkulPattern2 {
                 System.out.print(" ");
             }
           }
+          //this is the right side part of the pattern ;
           for(int j = 0; j < (n/2) + 1; j++) {
             if( j >= n / 2 - i && j >= i - n / 2) {
                 System.out.print("*");
@@ -36,7 +37,7 @@ public class webkulPattern2 {
    }
     public static void main(String[] args) {
         int n = 5;
-       printPattern2(5);
+       printPattern2(n);
     }
 }
 /*
