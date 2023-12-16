@@ -28,4 +28,30 @@ public class webkulPattern5 {
  *   if(i < n + 1) print "@" else print " "
  *     if(i <= n / 2 && i < 2 * n - n / 2) print * else print " "        (2*n - n / 2) ==> 9 
  *   if(i >= n - 1) print "@" else print " "
+ * 
+ 
+ 
+@
+@
+@
+@******
+@     ******
+@          ******               @
+@               ******          @
+                     ******     @
+                          ******@
+                                @
+                                @
+                                @
+
+
+
+
+
+
+
+
+
+
+
  */
