@@ -19,7 +19,8 @@ public class webkulPattern6 {
         }
 
         // Second part of the pattern
-        for (int i = 0; i < n - 2; i++) {
+        for (int i = 2; i < n  ; i++) { // i start from 2 bcoz i want to print only n - 2 @ symbol 
+           //this is for the space 
             for (int j = 0; j < n; j++) {
                 System.out.print(" ");
             }
@@ -36,7 +37,7 @@ public class webkulPattern6 {
         }
 
         // Third part of the pattern
-        for (int i = 0; i <= n / 2; i++) {
+        for (int i = 0; i < n / 2 + 1; i++) {
             for (int j = 0; j < n / 2; j++) {
                 if (j < i) {
                     System.out.print(" ");
@@ -45,6 +46,7 @@ public class webkulPattern6 {
             for (int j = 0; j < n - (2 * i); j++) {
                 System.out.print("*");
             }
+            
             for (int j = 0; j < n / 2; j++) {
                 if (j < i) {
                     System.out.print(" ");
