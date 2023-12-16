@@ -74,7 +74,7 @@ public class webkulPattern {
     }
 
 
-
+ int n = 5;
   @@@@@
    @@@
     @

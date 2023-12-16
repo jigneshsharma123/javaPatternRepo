@@ -29,6 +29,17 @@ public class webkulPattern4 {
  *   (i == n / 2)  this is for the star present in the center of the pattern
  *   if( i == n / 2 - 1 ) this is for the middle - 1 which print single space + star 
  *   if(i == n / 2 + 1) this is for the middle + 1 which print single space + star
- *     
- * 
+ 
+
+
+*        
+**       
+***      
+****      *
+************     
+****      *
+***
+**
+*
+
  */    
